@@ -1,58 +1,60 @@
 import discord
 from discord.ext import commands
-from spellcheck import spell_check  # Import your spell_check function from spellcheck.py
-from env import secret
+from spellcheck import spell_check
+from env import secret, allowed_user_ids, allowed_channel_id
 from langdetect import detect
+from terminal import loading_animation
+import asyncio
 
 intents = discord.Intents.default()
-
 intents.messages = True
 intents.message_content = True
 
 bot = commands.Bot(command_prefix='', intents=intents)
 
-# IDs of users who should trigger spell check (replace with actual user IDs)
-allowed_user_ids = [123, 123]
-
-# ID of the channel where the bot should listen (replace with actual channel ID)
-allowed_channel_id = 1234567890
 
 @bot.event
 async def on_ready():
     print(f'{bot.user} has connected to Discord!')
 
-# Event listener for message events
 
-@bot.event
-async def on_message(message):
+async def handle_message(message):
     print(f"Message received: {message.content}")
     if message.author.bot:  # Ignore messages from bots
         return
 
-    # Check if the message is from an allowed user and in the allowed channel
-    if message.author.id in allowed_user_ids and message.channel.id == allowed_channel_id:
+    if message.author.id in allowed_user_ids and message.channel.id in allowed_channel_ids:
         original_text = message.content
 
         language = detect(original_text)
+
         if language != 'pl':
             print(f"Message is not in Polish, but in {language}")
             return
 
-        # Perform spell check and get corrections and mistakes
         corrected_text, mistakes = spell_check(original_text)
-
+        print("tst")
         if mistakes:
-            # If there are mistakes, prepare the correction message
-            correction_message = f"Hey {message.author.mention}, I found some mistakes:\n"
+            initial_sent_message = await loading_animation(message)
+
+            correction_message = (f"Hey {message.author.mention}, "
+                                  f"I've spotted some possible mistakes in your message. "
+                                  f"Here are my guesses for what you could have meant. "
+                                  f"Just remember that I'm simply a computer program and "
+                                  f"I might make mistakes too! Beep! Boop!\n")
             for mistake, correction in mistakes:
                 correction_message += f"{mistake} -> {correction}\n"
 
-            # Send the correction message
-            await message.channel.send(correction_message)
+            await initial_sent_message.edit(content=correction_message)
+
         else:
-            # No mistakes found, do nothing
             return
 
+
+@bot.event
+async def on_message(message):
+    # Schedule the handling function as a background task
+    asyncio.create_task(handle_message(message))
     await bot.process_commands(message)  # Ensure other commands are processed
 
 bot.run(secret)

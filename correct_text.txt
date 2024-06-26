@@ -1,0 +1,33 @@
+To jest przykład tekstu w języku polskim z błędami ortograficznymi. Widziałem wczoraj naprawdę dziwną rzecz. Mówiłem ci, że tam nie ma żadnej książki. Słyszałeś kiedyś o książce z żółtą okładką? Przeciwnie, ona miała czerwoną okładkę. Możesz robić co chcesz, ale pamiętaj, że to ważne.
+Jestem dziś bardzo zajęty, ale muszę ci powiedzieć, że będziemy mogli skończyć projekt dzisiaj. Już wysłałem maila do klienta z pytaniami. Mogę być gotowy na spotkanie o godzinie 15:00. Oczywiście, jeżeli będę miał jakiekolwiek pytania, będę cię pytał. Dziękuję i pozdrawiam, Adam
+Mam dziś ważne spotkanie o 11:00. Mam nadzieję, że będzie można się na tym dogadać. Czekam na Twoją odpowiedź.
+Zjedz sobie normalny bar lunch, a potem przyjdziesz na spotkanie.
+Nie wiem czemu ciągnie za tym, ale to na pewno nie jest nasz problem.
+Udałem się do apteki po leki, ale okazało się, że muszę mieć receptę.
+Spotkamy się przed kliniką o 10:30. Potem możemy pójść na lunch razem.
+Mam wiele zadań do zrobienia do jutra, więc będę musiał zostać do późna.
+Poszedłem dzisiaj na pocztę, żeby odebrać przesyłkę, ale okazało się, że jest zamknięta.
+To jest przykład długiego tekstu w języku polskim, który będzie służył jako podstawa do sprawdzania poprawności pisowni oraz obliczania podobieństwa. Dzięki temu tekstu można przetestować skuteczność narzędzi do poprawy pisowni i automatycznego sprawdzania tekstu.
+
+Dzisiaj wieczorem idę na koncert mojego ulubionego zespołu. Mam nadzieję, że pogoda będzie sprzyjać i nie będzie deszczu. Mam już bilety, więc teraz czekam tylko na godzinę rozpoczęcia koncertu.
+
+Wczoraj w nocy przeczytałem fascynującą książkę o podróżach w czasie. Była to bardzo intrygująca lektura. Książka opowiadała o niezwykłych przygodach głównego bohatera, który miał zdolność podróżowania do różnych epok historycznych.
+
+Udałem się do sklepu po świeże owoce. Kupiłem jabłka, gruszki i kilka bananów. Teraz mam zdrowe przekąski na cały tydzień. Zawsze staram się jeść zdrowo i regularnie uprawiać sport.
+
+Planuję wyjazd na wakacje nad morze. Chciałbym odwiedzić piękne plaże i zwiedzić ciekawe miejsca. Mam nadzieję, że pogoda będzie słoneczna i że będę mógł odpocząć od codziennych obowiązków.
+
+Jutro idziemy na wycieczkę do gór. Będziemy zwiedzać malownicze szlaki i podziwiać piękne widoki. Mam nadzieję, że pogoda nam dopisze i że będzie można zrobić wiele zdjęć.
+
+Ostatnio dużo pracuję nad projektem badawczym. Analizuję dane i przygotowuję raport z wynikami eksperymentów. To wymaga dużo czasu i zaangażowania, ale cieszę się, że mogę robić coś, co naprawdę mnie interesuje.
+
+Mam w planach spotkanie z kolegą na kawę. Będziemy rozmawiać o wspólnych projektach i planach na przyszłość. Cieszę się, że mam takich inspirujących ludzi w swoim życiu.
+
+Wieczorem idziemy na rodzinny obiad. Będziemy świętować urodziny babci i spędzać czas razem z rodziną. To zawsze miły czas na wspólne spotkania i rozmowy przy stole.
+
+W pracy dziś jest dużo do zrobienia. Mam kilka ważnych zadań do wykonania i muszę się skupić, żeby wszystko zrobić na czas. Mam nadzieję, że uda mi się wszystko skończyć przed końcem dnia.
+
+Zaplanowałem sobie wieczór przy kominku z dobrą książką. To dla mnie najlepszy sposób na relaks i odpoczynek po intensywnym dniu. Lubię czytać książki, które mnie inspirują i uczą nowych rzeczy.
+
+To był udany dzień. Cieszę się, że mogłem zrealizować wiele planów i że wszystko poszło zgodnie z planem. Teraz czekam na kolejne wyzwania i nowe możliwości.
+
